@@ -47,6 +47,9 @@
     <!-- Custom styles for this template -->
     <link href="css/resume.min.css" rel="stylesheet">
 
+    <!-- Flag Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
+    
   </head>
 
   <body id="page-top">
@@ -64,29 +67,36 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre mí</a>
+            <a class="nav-link js-scroll-trigger lang__menuabout" href="#about">Sobre mí</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Aptitudes</a>
+            <a class="nav-link js-scroll-trigger lang__menuskills" href="#skills">Aptitudes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experiencia</a>
+            <a class="nav-link js-scroll-trigger lang__menuexp" href="#experience">Experiencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education">Formación</br>Académica</a>
+            <a class="nav-link js-scroll-trigger lang__menuedu1" href="#education">Formación Académica</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education2">Formación</br>Adicional</a>
+            <a class="nav-link js-scroll-trigger lang__menuedu2" href="#education2">Formación Adicional</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Cursos &amp;</br>Certificaciones</a>
+            <a class="nav-link js-scroll-trigger lang__menuawards" href="#awards">Cursos &amp; Certificaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#events">Seminarios</br>y Eventos</a>
+            <a class="nav-link js-scroll-trigger lang__menuevents" href="#events">Seminarios &amp; Eventos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Intereses</a>
+            <a class="nav-link js-scroll-trigger lang__menuinterests" href="#interests">Intereses</a>
           </li>
+          
+          <li class="nav-item">
+            <a href="#" onclick="LanguageJS.translate('es');" title="Español (UY)"><span class="flag-icon flag-icon-uy"></span></a> |
+            <a href="#" onclick="LanguageJS.translate('pt');" title="Português (BR)"><span class="flag-icon flag-icon-br"></a> |
+            <a href="#" onclick="LanguageJS.translate('en');" title="English (US)"><span class="flag-icon flag-icon-us"></a>
+          </li>
+
         </ul>
       </div>
     </nav>
@@ -102,7 +112,7 @@
           <div class="subheading mb-5">Rivera, Uruguay · (+598) 9910 9375 ·
             <a href="mailto:amilcar@acomtech.uy">amilcar@acomtech.uy</a>
           </div>
-          <p class="mb-5">
+          <p class="mb-5 lang__profile">
             Técnico Informático y Desarrollador Web.<br>Actualmente enfocado en Desarrollo Web Backend con énfasis en lenguaje PHP.
           </p>
           <ul class="list-inline list-social-icons mb-0">
@@ -177,8 +187,8 @@
       <!-- Aptitudes -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
-          <h2 class="mb-5">Aptitudes</h2>
-          <div class="subheading mb-3">Lenguajes de Programación &amp; Herramientas</div>
+          <h2 class="mb-5 lang__menuskills">Aptitudes</h2>
+          <div class="subheading mb-3 lang__skillslangtools">Lenguajes de Programación &amp; Herramientas</div>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
               <i class="devicons devicon-html5-plain" title="HTML 5"></i>
@@ -247,44 +257,52 @@
               <i class="devicons devicon-debian-plain" title="Debian"></i>
             </li>
           </ul>
-          <div class="subheading mb-3">Flujo de Trabajo</div>
+          <div class="subheading mb-3 lang__skillsworkflow">Flujo de Trabajo</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Pensamiento de Diseño</li>
+              <div class="lang__skillswf1">Pensamiento de Diseño</div>
+            </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Desarrollo Ágil y Scrum</li>
+              <div class="lang__skillswf2">Desarrollo Ágil y Scrum</div>
+            </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Gestión Participativa</li>
+              <div class="lang__skillswf3">Gestión Participativa</div>
+            </li>
           </ul>
           <br>
-          <div class="subheading mb-3">Infraestructura TI</div>
+          <div class="subheading mb-3 lang__skillsti">Infraestructura TI</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Mantenimiento y Reparación de Ordenadores</li>
+              <div class="lang__skillsti1">Mantenimiento y Reparación de Ordenadores</div>
+            </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Instalación y Configuración de Redes Cableadas e Inalambricas</li>
-            <li>
+              <div class="lang__skillsti2">Instalación y Configuración de Redes Cableadas e Inalambricas</div>
+            </li>
           </ul>
           <br>
-          <div class="subheading mb-3">Idiomas</div>
+          <div class="subheading mb-3 lang__skillslg">Idiomas</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Español (Nativo)</li>
+              <div class="lang__skillslges">Español (Nativo)</div>
+            </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Portugués (Avanzado)</li>
+              <div class="lang__skillslgpt">Portugués (Avanzado)</div>
+            </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Inglés (Médio)</li>
+              <div class="lang__skillslgen">Inglés (Médio)</div>
+            </li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Francés (Básico)</li>
+              <div class="lang__skillslgfr">Francés (Básico)</div>
+            </li>
           </ul>
         </div>
       </section>
@@ -292,41 +310,41 @@
       <!-- Experiencia -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
-          <h2 class="mb-5">Experiencia</h2>
+          <h2 class="mb-5 lang__menuexp">Experiencia</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Desarrollo Web</h3>
-              <div class="subheading mb-3">Freelancer</div>
+              <h3 class="mb-0 lang__expwebdev">Desarrollo Web</h3>
+              <div class="subheading mb-3 lang__expwebdevplace">Freelancer</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2016 en adelante</span>
+              <span class="text-primary lang__expwebdevyears">2016 en adelante</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Marketing Digital</h3>
-              <div class="subheading mb-3">Freelancer</div>
+              <h3 class="mb-0 lang__expdigitalmark">Marketing Digital</h3>
+              <div class="subheading mb-3 lang__expdigitalexpmarkplace">Freelancer</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2016 - 2018</span>
+              <span class="text-primary lang__expdigitalmarkyears">2016 - 2018</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Diseño Web</h3>
-              <div class="subheading mb-3">Freelancer</div>
+              <h3 class="mb-0 lang__expwebdesign">Diseño Web</h3>
+              <div class="subheading mb-3 lang__expwebdesignplace">Freelancer</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2014 en adelante</span>
+              <span class="text-primary lang__expwebdesignyears">2014 en adelante</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Infraestructura TI</h3>
-              <div class="subheading mb-3">Freelancer</div>
+              <h3 class="mb-0 lang__expti">Infraestructura TI</h3>
+              <div class="subheading mb-3 lang__exptiplace">Freelancer</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2011 en adelante</span>
+              <span class="text-primary lang_exptiyears">2011 en adelante</span>
             </div>
           </div>
         </div>
@@ -335,32 +353,32 @@
       <!-- Formación Académica -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div class="my-auto">
-          <h2 class="mb-5">Formación Académica</h2>
+          <h2 class="mb-5 lang__menuedu1">Formación Académica</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Tecnólogo en Análisis y Desarrollo de Sistemas</h3>
-              <div class="subheading mb-3">Instituto Federal Sul-rio-grandense Campus Sant'ana do Livramento</div>
+              <h3 class="mb-0 lang__edu1tecnologo">Tecnólogo en Análisis y Desarrollo de Sistemas</h3>
+              <div class="subheading mb-3 lang__edu1ifsul">Instituto Federal Sul-rio-grandense Campus Sant'ana do Livramento</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2019 - En Curso</span>
+              <span class="text-primary lang__edu1tecnologoyears">2019 - En Curso</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Técnico en Informática para Internet</h3>
-              <div class="subheading mb-3">Instituto Federal Sul-rio-grandense Campus Sant'ana do Livramento</div>
+              <h3 class="mb-0 lang__edu1tecnico">Técnico en Informática para Internet</h3>
+              <div class="subheading mb-3 lang__edu1ifsul">Instituto Federal Sul-rio-grandense Campus Sant'ana do Livramento</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2014 - 2016</span>
+              <span class="text-primary lang__edu1tecnicoyears">2014 - 2016</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Educación Média Tecnológica en Informática</h3>
-              <div class="subheading mb-3">Escuela Técnica Superior de Rivera (CETP-UTU)</div>
+              <h3 class="mb-0 lang__edu1emt">Educación Média Tecnológica en Informática</h3>
+              <div class="subheading mb-3 lang__edu1utu">Escuela Técnica Superior de Rivera (CETP-UTU)</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2009 - 2012</span>
+              <span class="text-primary lang__edu1emtyears">2009 - 2012</span>
             </div>
           </div>
         </div>
@@ -369,50 +387,50 @@
       <!-- Formación Adicional -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education2">
         <div class="my-auto">
-          <h2 class="mb-5">Formación Adicional</h2>
+          <h2 class="mb-5 lang__menuedu2">Formación Adicional</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Programa de Formación para el Empleo en TI</h3>
-              <div class="subheading mb-3">Cámara Uruguaya de Tecnologías de la Información</div>
+              <h3 class="mb-0 lang__edu2bit">Programa de Formación para el Empleo en TI</h3>
+              <div class="subheading mb-3 lang__edu2cuti">Cámara Uruguaya de Tecnologías de la Información</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2018 - 2020</span>
+              <span class="text-primary lang__edu2bityears">2018 - 2020</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Programa de Pre Incubación de Emprendimientos Tecnológicos</h3>
-              <div class="subheading mb-3">Instituto Tecnológico Regional Norte (UTEC)</div>
+              <h3 class="mb-0 lang__edu2ppi">Programa de Pre Incubación de Emprendimientos Tecnológicos</h3>
+              <div class="subheading mb-3 lang__edu2itrn">Instituto Tecnológico Regional Norte (UTEC)</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2019</span>
+              <span class="text-primary lang__edu2ppiyears">2019</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Curso de Testing de Software</h3>
-              <div class="subheading mb-3">Jóvenes a Programar (Ceibal)</div>
+              <h3 class="mb-0 lang__edu2testing">Curso de Testing de Software</h3>
+              <div class="subheading mb-3 lang__edu2jap">Jóvenes a Programar (Ceibal)</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2017</span>
+              <span class="text-primary lang__edu2testingyears">2017</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Profundización de Idioma Francés</h3>
-              <div class="subheading mb-3">Centro de Lenguas Extranjeras (CES)</div>
+              <h3 class="mb-0 lang__edu2pf">Profundización de Idioma Francés</h3>
+              <div class="subheading mb-3 lang__edu2cle">Centro de Lenguas Extranjeras (CES)</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2012</span>
+              <span class="text-primary lang__edu2pfyears">2012</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Ciclo Básico de Idioma Francés</h3>
-              <div class="subheading mb-3">Centro de Lenguas Extranjeras (CES)</div>
+              <h3 class="mb-0 lang__edu2cbf">Ciclo Básico de Idioma Francés</h3>
+              <div class="subheading mb-3 lang__edu2cle">Centro de Lenguas Extranjeras (CES)</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2006 - 2010</span>
+              <span class="text-primary lang__edu2cbfyears">2006 - 2010</span>
             </div>
           </div>
         </div>
@@ -421,89 +439,116 @@
       <!-- Cursos y Certificaciones -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
         <div class="my-auto">
-          <h2 class="mb-5">Cursos &amp; Certificaciones</h2>
+          <h2 class="mb-5 lang__menuawards">Cursos &amp; Certificaciones</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Analista Junior Genexus 15</li>
+              Analista Junior Genexus 15
+            </li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Programa Especializado - Soporte de Tecnologías de la Información de Google</li>
+              Programa Especializado - Soporte de Tecnologías de la Información de Google
+            </li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Certificado Profesional en Inteligencia Artificial y Robótica</li>
+              Certificado Profesional en Inteligencia Artificial y Robótica
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Web Application Firewall (WAF) Basado en la tecnología ModSecurity</li>
+              Web Application Firewall (WAF) Basado en la tecnología ModSecurity
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Introducción a la Robótica e Industria 4.0</li>
+              Introducción a la Robótica e Industria 4.0
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Introducción a la Inteligencia Artificial</li>
+              Introducción a la Inteligencia Artificial
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Fundamentos y Construcción de Modelos de Predicción con Machine Learning</li>
+              Fundamentos y Construcción de Modelos de Predicción con Machine Learning
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Big Data sin Misterios</li>
+              Big Data sin Misterios
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Introducción al Desarrollo de Aplicaciones Web</li>
+              Introducción al Desarrollo de Aplicaciones Web
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Desafíos y Oportunidades de la Economía Digital</li>
+              Desafíos y Oportunidades de la Economía Digital
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Emprendimiento Tecnológico</li>
+              Emprendimiento Tecnológico
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Gestión Participativa: Motivación y Liderazgo Organizacional</li>
+              Gestión Participativa: Motivación y Liderazgo Organizacional
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Android: Introducción a la Programación</li>
+              Android: Introducción a la Programación
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Upper-Intermediate English: Business</li>
+              Upper-Intermediate English: Business
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Diagramas UML Estructurales para la Ingeniería del Software</li>
+              Diagramas UML Estructurales para la Ingeniería del Software
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Introducción a la Ingeniería del Software</li>
+              Introducción a la Ingeniería del Software
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Herramientas de la Inteligencia de Negocios</li>
+              Herramientas de la Inteligencia de Negocios
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Aprendizaje Automático y Ciencia de los Datos</li>
+              Aprendizaje Automático y Ciencia de los Datos
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Introducción a la Gestión de Proyecto</li>
+              Introducción a la Gestión de Proyecto
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              SQL Desde Cero</li>
+              SQL Desde Cero
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Curso Maestro de Python</li>
+              Curso Maestro de Python
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Lánzate a la Innovación con Design Thinking</li>
+              Lánzate a la Innovación con Design Thinking
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Introducción a la Programación</li>
+              Introducción a la Programación
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Fundamentos TIC: Programación</li>
+              Fundamentos TIC: Programación
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Fundamentos TIC: Software</li>
+              Fundamentos TIC: Software
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Fundamentos TIC: Hardware</li>
+              Fundamentos TIC: Hardware
+            </li>
             <li>
               <i class="fa-li fa fa-certificate text-warning"></i>
-              Fundamentos de Marketing Digital</li>
+              Fundamentos de Marketing Digital
+            </li>
           </ul>
         </ul>
         </div>
@@ -512,51 +557,51 @@
       <!-- Seminarios y Eventos -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="events">
         <div class="my-auto">
-          <h2 class="mb-5">Seminarios y Eventos</h2>
+          <h2 class="mb-5 lang__menuevents">Seminarios y Eventos</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Ecosistemas de Innovación y Desarrollo de Empresas Tecnológicas
+              <h3 class="mb-0 lang__eventEcosistema">Ecosistemas de Innovación y Desarrollo de Empresas Tecnológicas
               </h3>
-              <div class="subheading mb-3">UTEC - Disertante</div>
+              <div class="subheading mb-3 lang__eventEcosistemaRol">UTEC - Disertante</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2020</span>
+              <span class="text-primarylang__eventEcosistemaYear">2020</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Let's Talk About Games</h3>
-              <div class="subheading mb-3">UTEC - Colaborador</div>
+              <h3 class="mb-0 lang__eventGames">Let's Talk About Games</h3>
+              <div class="subheading mb-3 lang__eventGamesRol">UTEC - Colaborador</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2020</span>
+              <span class="text-primary lang__eventGamesYear">2020</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Game Makers</h3>
-              <div class="subheading mb-3">UTEC - Tallerista</div>
+              <h3 class="mb-0 lang__eventGamemakers">Game Makers</h3>
+              <div class="subheading mb-3 lang__eventGamemakersRol">UTEC - Tallerista</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2020</span>
+              <span class="text-primary lang__eventGamemakersYear">2020</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Gamelab MVD</h3>
-              <div class="subheading mb-3">Gamelab/Antel - Participante</div>
+              <h3 class="mb-0 lang__eventGamelab">Gamelab MVD</h3>
+              <div class="subheading mb-3 lang__eventGamelabRol">Gamelab/Antel - Participante</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2019</span>
+              <span class="text-primary lang__eventGamelabYear">2019</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Demo Day 2019</h3>
-              <div class="subheading mb-3">UTEC - Disertante</div>
+              <h3 class="mb-0 lang__eventDemoday">Demo Day 2019</h3>
+              <div class="subheading mb-3 lang__eventDemodayRol">UTEC - Disertante</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2019</span>
+              <span class="text-primary lang__eventDemodayYear">2019</span>
             </div>
           </div>
         </div>
@@ -565,16 +610,16 @@
       <!-- Intereses -->
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Intereses</h2>
-          <p>
+          <h2 class="mb-5 lang__menuinterests">Intereses</h2>
+          <p class="lang__interestsp1">
             Siempre interesado en tecnología, busco capacitarme de forma autodidacta en áreas directa o indirectamente relacionadas con las tareas que desempeño profesionalmente,
             como Ciencia de Datos y Aprendizaje Automático o Inteligencia de Negocios.
           </p>
-          <p class="">
+          <p class="lang__interestsp2">
             También me intereso en el área de Emprendimiento Tecnológico, desde metodologías de diseño y desarrollo de productos como Design Thinking,
             a la gestión de equipo a través de métodologías de gestión participativa, y gestión de proyectos con metodologías ágiles.
           </p>
-          <p class="mb-0">
+          <p class="lang__interestsp3">
               Por otro lado, curioseo en otras tecnologías, como el diseño y desarrollo de videojuegos.
           </p>
         </div>
@@ -593,6 +638,23 @@
     <!-- Custom scripts for this template -->
     <script>
         !function(e){"use strict";e('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var t=e(this.hash);if((t=t.length?t:e("[name="+this.hash.slice(1)+"]")).length)return e("html, body").animate({scrollTop:t.offset().top},1e3,"easeInOutExpo"),!1}}),e(".js-scroll-trigger").click(function(){e(".navbar-collapse").collapse("hide")}),e("body").scrollspy({target:"#sideNav"})}(jQuery);
+    </script>
+
+    <!-- Language Script -->
+    <script src="js/language.js"></script>
+    <script>
+        var LanguageJS = new LanguageJS([
+            "menuabout", "menuskills", "menuexp", "menuedu1", "menuedu2", "menuawards", "menuevents", "menuinterests",
+            "profile",
+            "skillslangtools", "skillsworkflow", "skillswf1", "skillswf2", "skillswf3",
+            "skillsti", "skillsti1", "skillsti2",
+            "skillslg", "skillslges", "skillslgpt", "skillslgen", "skillsfr",
+            "expwebdev", "expwebdevplace", "expwebdevyears", "expdigitalmark", "expdigitalmarkplace", "expdigitalmarkyears",  "expwebdesign", "expwebdesignplace", "expwebdesignyears", "expti", "exptiplace", "exptiyears",
+            "edu1tecnologo", "edu1tecnico", "edu1emt", "edu1tecnologoyears", "edu1tecnologoyears", "edu1ifsul", "edu1utu",
+            "edu2bit", "edu2cuti", "edu2bityears", "edu2ppi", "edu2ppiyears", "edu2itrn", "edu2testing", "edu2testingyears", "edu2jap", "edu2pf", "edu2pfyears", "edu2cbf", "edu2cbfyears", "edu2cle",
+            "eventEcosistema", "eventEcosistemaRol", "eventEcosistemaYear", "eventGames", "eventGamesRol", "eventGamesYear", "eventGamemakers", "eventGamemakersRol", "eventGamemakersYear", "eventGamelab", "eventGamelabRol", "eventGamelabYear", "eventDemoday", "eventDemodayRol", "eventDemodayYear",
+            "interestsp1", "interestsp2", "interestsp3",
+        ]);
     </script>
 
   </body>
