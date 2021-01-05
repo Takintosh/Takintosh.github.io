@@ -652,6 +652,8 @@
       release: "takintosh-github-io@v1",
       integrations: [new Sentry.Integrations.BrowserTracing()],
       tracesSampleRate: 1.0,
+      autoSessionTracking: true,
+      environment: "production",
     });
   </script>
 
