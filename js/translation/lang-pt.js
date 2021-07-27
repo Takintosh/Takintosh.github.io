@@ -63,22 +63,18 @@ var localization = {
     edu2cle: "Centro de Línguas Estrangeiras (CES)",
 
     
-    
-    eventEcosistema:"Ecossistemas de Inovação e Desenvolvimento de Empreendimentos Tecnológicos",
+    eventINJU: "O Jogo e a Virtualidade",
+    eventINJURol: "INJU - Participante",
+    eventEcosistema: "Ecossistemas de Inovação e Desenvolvimento de Empreendimentos Tecnológicos",
     eventEcosistemaRol: "UTEC - Conferencista",
-    eventEcosistemaYear: "2020",
     eventGames: "Let's Talk About Games",
     eventGamesRol: "UTEC - Colaborador",
-    eventGamesYear: "2020",
     eventGamemakers: "Game Makers",
     eventGamemakersRol: "UTEC - Oficinista",
-    eventGamemakersYear: "2020",
     eventGamelab: "Gamelab MVD",
     eventGamelabRol: "Gamelab/Antel - Participante",
-    eventGamelabYear: "2019",
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Conferencista",
-    eventDemodayYear: "2019",
     
     interestsp1: "Sempre interessado em tecnologia, procuro me treinar em áreas direta ou indiretamente relacionadas às tarefas que realizo profissionalmente, como Ciência de Dados e Machine Learning ou Business Intelligence.",
     interestsp2: "Também me interesso pela área de Empreendedorismo Tecnológico, desde metodologias de design e desenvolvimento de produtos como Design Thinking, até gestão de equipes por meio de metodologias de gestão participativa, e gestão de projetos com metodologias ágeis.",
