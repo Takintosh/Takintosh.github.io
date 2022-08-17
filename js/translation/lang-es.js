@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminarios & Eventos",
     menuinterests: "Intereses",
 
-    profile: "Técnico Informático y Desarrollador Web.<br>Actualmente enfocado en Desarrollo Web Backend con énfasis en lenguaje PHP.",
+    profile: "Técnico Informático y Desarrollador Web.<br>Actualmente realizando tareas de desarrollo con NodeJS y AngularJS.",
 
     skillslangtools: "Lenguajes de Programación & Herramientas",
     skillsworkflow: "Flujo de Trabajo",
@@ -19,6 +19,7 @@ var localization = {
     skillsti: "Infraestructura TI",
     skillsti1: "Mantenimiento y Reparación de Ordenadores",
     skillsti2: "Instalación y Configuración de Redes Cableadas e Inalambricas",
+    skillsti3: "Configuración e Integración Contínua en AWS",
     skillslg: "Idiomas",
     skillslges: "Español (Nativo)",
     skillslgpt: "Portugués (Avanzado)",

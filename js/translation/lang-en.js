@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminars & Events",
     menuinterests: "Interests",
 
-    profile: "IT Technician and Web Developer.<br>Currently focused on backend web development with an emphasis on PHP language.",
+    profile: "IT Technician and Web Developer.<br>Currently doing development tasks with NodeJS and AngularJS.",
 
     skillslangtools: "Programming Languages & Tools",
     skillsworkflow: "Workflow",
@@ -19,6 +19,7 @@ var localization = {
     skillsti: "IT Infrastructure",
     skillsti1: "Maintenance and Repair of Computers",
     skillsti2: "Installation and Configuration of Wired and Wireless Networks",
+    skillsti3: "Configuration and Continuous Integration in AWS",
     skillslg: "Languages",
     skillslges: "Spanish (Native)",
     skillslgpt: "Portuguese (Advanced)",
