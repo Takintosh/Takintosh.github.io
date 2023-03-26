@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminarios & Eventos",
     menuinterests: "Intereses",
 
-    profile: "Técnico Informático y Desarrollador Web.<br>Actualmente realizando tareas de desarrollo con NodeJS y AngularJS.",
+    profile: "Técnico Informático y Desarrollador Web.",
 
     skillslangtools: "Lenguajes de Programación & Herramientas",
     skillsworkflow: "Flujo de Trabajo",

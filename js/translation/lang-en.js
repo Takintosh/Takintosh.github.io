@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminars & Events",
     menuinterests: "Interests",
 
-    profile: "IT Technician and Web Developer.<br>Currently doing development tasks with NodeJS and AngularJS.",
+    profile: "IT Technician and Web Developer.",
 
     skillslangtools: "Programming Languages & Tools",
     skillsworkflow: "Workflow",
