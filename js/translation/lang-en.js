@@ -77,8 +77,8 @@ var localization = {
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Speaker",
 
-    interestsp1: "Always interested in technology, I seek to train myself in areas directly or indirectly related to the tasks that I perform professionally, such as Data Science and Machine Learning or Business Intelligence.",
-    interestsp2: "I am also interested in the area of Technological Entrepreneurship, from design methodologies and product development such as Design Thinking, to team management through participatory management methodologies, and project management with agile methodologies.",
-    interestsp3: "On the other hand, I am curious about other technologies, such as video game design and development."
+    interestsp1: "Always passionate about technology, I seek to enrich my knowledge through self-directed learning in areas directly or indirectly related to my professional experience. I have acquired basic knowledge in fields such as Data Science and Machine Learning, skills that are highly sought after in my field.",
+    interestsp2: "Additionally, I am deeply drawn to the world of Technology Entrepreneurship, from applying design and product development methodologies like Design Thinking, to managing teams through participatory approaches, and project management using agile methodologies.",
+    interestsp3: "On the other hand, I enjoy exploring other technological horizons, such as the exciting field of game design and development."
 
 };

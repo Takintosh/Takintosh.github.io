@@ -77,8 +77,8 @@ var localization = {
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Disertante",
 
-    interestsp1: "Siempre interesado en tecnología, busco capacitarme de forma autodidacta en áreas directa o indirectamente relacionadas con las tareas que desempeño profesionalmente, como Ciencia de Datos y Aprendizaje Automático o Inteligencia de Negocios.",
-    interestsp2: "También me intereso en el área de Emprendimiento Tecnológico, desde metodologías de diseño y desarrollo de productos como Design Thinking, a la gestión de equipo a través de métodologías de gestión participativa, y gestión de proyectos con metodologías ágiles.",
-    interestsp3: "Por otro lado, curioseo en otras tecnologías, como el diseño y desarrollo de videojuegos."
+    interestsp1: "Siempre apasionado por la tecnología, busco enriquecer mi conocimiento de manera autodidacta en áreas directa o indirectamente relacionadas con mi experiencia profesional. He adquirido conocimientos básicos en áreas como la Ciencia de Datos y el Aprendizaje Automático, habilidades que son altamente demandadas en mi campo.",
+    interestsp2: "Además, me atrae profundamente el mundo del Emprendimiento Tecnológico, desde la aplicación de metodologías de diseño y desarrollo de productos como el Design Thinking, hasta la gestión de equipos a través de enfoques participativos, y la dirección de proyectos mediante metodologías ágiles.",
+    interestsp3: "Por otro lado, disfruto explorando otros horizontes tecnológicos, como el emocionante campo del diseño y desarrollo de videojuegos."
 
 };

@@ -77,8 +77,8 @@ var localization = {
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Conferencista",
     
-    interestsp1: "Sempre interessado em tecnologia, procuro me treinar em áreas direta ou indiretamente relacionadas às tarefas que realizo profissionalmente, como Ciência de Dados e Machine Learning ou Business Intelligence.",
-    interestsp2: "Também me interesso pela área de Empreendedorismo Tecnológico, desde metodologias de design e desenvolvimento de produtos como Design Thinking, até gestão de equipes por meio de metodologias de gestão participativa, e gestão de projetos com metodologias ágeis.",
-    interestsp3: "Por outro lado, investigo outras tecnologias, como design e desenvolvimento de videogames."
+    interestsp1: "Sempre apaixonado por tecnologia, busco enriquecer meu conhecimento por meio de aprendizado autodirigido em áreas diretamente ou indiretamente relacionadas à minha experiência profissional. Adquiri conhecimentos básicos em campos como Ciência de Dados e Aprendizado de Máquina, habilidades muito procuradas em minha área.",
+    interestsp2: "Além disso, sou profundamente atraído pelo mundo do Empreendedorismo Tecnológico, desde a aplicação de metodologias de design e desenvolvimento de produtos, como o Design Thinking, até a gestão de equipes por meio de abordagens participativas e gerenciamento de projetos usando metodologias ágeis.",
+    interestsp3: "Por outro lado, gosto de explorar outros horizontes tecnológicos, como o emocionante campo do design e desenvolvimento de jogos"
 
 };
