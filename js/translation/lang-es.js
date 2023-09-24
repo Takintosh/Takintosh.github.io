@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminarios & Eventos",
     menuinterests: "Intereses",
 
-    profile: "Técnico Informático y Desarrollador Web.",
+    profile: "<b>Técnico Informático y Desarrollador Web</b><br>Soy un profesional apasionado por la tecnología con más de 10 años de experiencia en el área de TI. <br>Mi trayectoria abarca el desarrollo web, donde he trabajado con tecnologías como PHP, MySQL y Bootstrap, así como en el ámbito de hardware y sistemas.",
 
     skillslangtools: "Lenguajes de Programación & Herramientas",
     skillsworkflow: "Flujo de Trabajo",

@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminars & Events",
     menuinterests: "Interests",
 
-    profile: "IT Technician and Web Developer.",
+    profile: "<b>IT Technician and Web Developer</b><br>I am a technology enthusiast with over 10 years of experience in the IT field. <br>My background includes web development, where I have worked with technologies such as PHP, MySQL, and Bootstrap, as well as in the realm of hardware and systems.",
 
     skillslangtools: "Programming Languages & Tools",
     skillsworkflow: "Workflow",
