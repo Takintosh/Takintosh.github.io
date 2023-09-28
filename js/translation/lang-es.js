@@ -38,6 +38,14 @@ var localization = {
     exptiplace: "Freelancer",
     exptitext: "He brindado servicios de armado y mantenimiento de ordenadores, instalación y actualización de sistemas operativos y aplicaciones, instalación y configuración de redes cableadas e inalámbricas, y soporte técnico a diversos dispositivos tecnológicos. He trabajado tanto para usuarios finales como para empresas, adaptándome a sus necesidades y requerimientos específicos.",
     exptiyears: "2011 en adelante",
+
+    portfoliosubtitle: "Algunos de mis proyectos anteriores",
+    portfolioobimtype: "Aplicación Web a medida",
+    portfolioobimtext: "OBIM fue un proyecto descontinuado de una plataforma a medida para el área de arquitectura. Ofrecía a los usuarios la posibilidad de descargar archivos, explorar un catálogo de items y votar por otros items. El proyecto utilizó Laravel y MySQL. El diseño fue realizado utilizando Bootstrap y siguiendo el planteo del cliente, manteniendo fidelidad a la idea original. Para el backoffice, utilicé un template prediseñado. Fue mi primer proyecto en el que utilicé Laravel.",
+    portfoliospiralxtype: "Landing Page y e-commerce",
+    portfoliospiralxtext: "SpiralX fue un proyecto descontinuado para una startup chilena que ofrecía un producto innovador. El proyecto consistía en una landing page con e-commerce para la venta de su producto, integrada con la plataforma de pago webpay. Para el desarrollo del proyecto, utilicé el framework de e-commerce OpenCart, y un template de bootstrap personalizado. El proyecto requirió trabajo de configuración basado en la logística de entrega de los productos, así como la adaptación del diseño a la identidad visual del cliente. Fue mi primer plataforma de e-commerce.",
+    portfoliofavintype: "Showcase",
+    portfoliofavintext: "FAVIN fue un proyecto descontinuado de un showcase que promovía a distintos artesanos de la región y sus trabajos. Me encargué del desarrollo del backend y la base de datos, utilizando CakePHP y MySQL, creando las funcionalidades necesarias para gestionar el contenido del showcase. Fue mi primer proyecto utilizando CakePHP.",
     
     edu1tecnologo: "Tecnólogo en Análisis y Desarrollo de Sistemas",
     edu1tecnologoyears: "2019 - En Curso",

@@ -39,6 +39,14 @@ var localization = {
     exptitext: "I provided services of assembly and maintenance of computers, installation and update of operating systems and applications, installation and configuration of wired and wireless networks, and technical support to various technological devices. I worked for both end users and companies, adapting to their specific needs and requirements.",
     exptiyears: "2011 onwards",
     
+    portfoliosubtitle: "Some of my previous projects",
+    portfolioobimtype: "Custom Web Application",
+    portfolioobimtext: "OBIM was a discontinued project of a custom platform for the architecture area. It offered users the possibility of downloading files, exploring a catalog of items and voting on other items. The project used Laravel and MySQL. The design was done using Bootstrap and following the client’s plan, maintaining fidelity to the original idea. For the backoffice, I used a pre-designed template. It was my first project in which I used Laravel.",
+    portfoliospiralxtype: "Landing Page and e-commerce",
+    portfoliospiralxtext: "SpiralX was a discontinued project for a Chilean startup that offered an innovative product. The project consisted of a landing page with e-commerce for the sale of its product, integrated with the webpay payment platform. For the development of the project, I used the OpenCart e-commerce framework, and a custom bootstrap template. The project required configuration work based on the logistics of product delivery, as well as the adaptation of the design to the client's visual identity. It was my first e-commerce platform.",
+    portfoliofavintype: "Showcase",
+    portfoliofavintext: "FAVIN was a discontinued project of a showcase that promoted different artisans from the region and their work. I was in charge of the development of the backend and the database, using CakePHP and MySQL, creating the necessary functionalities to manage the content of the showcase. It was my first project using CakePHP.",
+
     edu1tecnologo: "Technologist in Analysis and Systems Development",
     edu1tecnologoyears: "2019 - Ongoing",
     edu1tecnico: "Computer Technician for the Internet",
