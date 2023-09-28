@@ -28,15 +28,15 @@ var localization = {
 
     expwebdev: "Desenvolvimento Web",
     expwebdevplace: "Freelancer",
+    expwebdevtext: "Criei sites e aplicações web, oferecendo soluções personalizadas, seguras e eficientes. Usei principalmente PHP (incluindo Laravel e CakePHP) e MySQL. Desenvolvi habilidades para programar, depurar e implantar projetos web.",
     expwebdevyears: "2016 em diante",
-    expdigitalmark: "Marketing Digital",
-    expdigitalmarkplace: "Freelancer",
-    expdigitalmarkyears: "2016 - 2018",
     expwebdesign: "Design Web",
     expwebdesignplace: "Freelancer",
+    expwebdesigntext: "Realizei tarefas de design web, usando HTML/CSS e gerando os assets necessários para as web, tanto websites estáticos, como fóruns e blogs de plataformas de construtores web. Desenvolvi habilidades para criar designs atraentes, responsivos e acessíveis.",
     expwebdesignyears: "2014 em diante",
     expti: "Infraestrutura de TI",
     exptiplace: "Freelancer",
+    exptitext: "Prestei serviços de montagem e manutenção de computadores, instalação e atualização de sistemas operacionais e aplicativos, instalação e configuração de redes cabeadas e sem fio, e suporte técnico a diversos dispositivos tecnológicos. Trabalhei tanto para usuários finais quanto para empresas, adaptando-me às suas necessidades e requisitos específicos.",
     exptiyears: "2011 em diante",
     
     edu1tecnologo: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
