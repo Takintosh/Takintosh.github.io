@@ -57,6 +57,10 @@
   <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
   <script>window.LogRocket && window.LogRocket.init('i2kbsq/takintoshgithubio');</script>
 
+  <!-- Fancybox -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
 </head>
 
 <body id="page-top">
@@ -383,7 +387,9 @@
         
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-date text-center text-md-right col-md-5 order-md-2">
-            <img class="mb-3" src="img/portfolio/obim.webp" alt="imagen" style="max-width: 90%;">
+            <a id="fancybox-obim" href="#">
+              <img class="mb-3" src="img/portfolio/obim.webp" alt="imagen" style="max-width: 90%;">
+            </a>
           </div>
           <div class="resume-content mr-auto col-md-7 order-md-1">
             <h3 class="mb-0 text-center text-md-left">OBIM</h3>
@@ -396,7 +402,9 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-date text-center text-md-right col-md-5 order-md-2">
-            <img class="mb-3" src="img/portfolio/spiralx.webp" alt="imagen" style="max-width: 90%;">
+            <a id="fancybox-spiralx" href="#">
+              <img class="mb-3" src="img/portfolio/spiralx.webp" alt="imagen" style="max-width: 90%;">
+            </a>
           </div>
           <div class="resume-content mr-auto col-md-7 order-md-1">
             <h3 class="mb-0 text-center text-md-left">SpiralX</h3>
@@ -409,7 +417,9 @@
 
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-date text-center text-md-right col-md-5 order-md-2">
-            <img class="mb-3" src="img/portfolio/favin.webp" alt="imagen" style="max-width: 90%;">
+            <a id="fancybox-favin" href="#">
+              <img class="mb-3" src="img/portfolio/favin.webp" alt="imagen" style="max-width: 90%;">
+            </a>
           </div>
           <div class="resume-content mr-auto col-md-7 order-md-1">
             <h3 class="mb-0 text-center text-md-left">FAVIN</h3>
@@ -703,6 +713,7 @@
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+
   <!-- Custom scripts for this template -->
   <script>
     !function (e) { "use strict"; e('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () { if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) { var t = e(this.hash); if ((t = t.length ? t : e("[name=" + this.hash.slice(1) + "]")).length) return e("html, body").animate({ scrollTop: t.offset().top }, 1e3, "easeInOutExpo"), !1 } }), e(".js-scroll-trigger").click(function () { e(".navbar-collapse").collapse("hide") }), e("body").scrollspy({ target: "#sideNav" }) }(jQuery);
@@ -724,6 +735,81 @@
       "eventEcosistema", "eventEcosistemaRol", "eventEcosistemaYear", "eventGames", "eventGamesRol", "eventGamesYear", "eventGamemakers", "eventGamemakersRol", "eventGamemakersYear", "eventGamelab", "eventGamelabRol", "eventGamelabYear", "eventDemoday", "eventDemodayRol", "eventDemodayYear",
       "interestsp1", "interestsp2", "interestsp3", "eventINJU", "eventINJURol"
     ]);
+  </script>
+
+  <!-- Fancybox -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    document.getElementById("fancybox-obim").addEventListener("click", (e) => {
+      e.preventDefault();
+      new Fancybox(
+        [
+          {
+            src: "img/portfolio/obim-1.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/obim-2.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/obim-3.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/obim-4.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/obim-5.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/obim-6.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/obim-7.webp",
+            type: "image",
+          },
+        ],
+        {
+          // custom options
+        }
+      );
+    });
+    document.getElementById("fancybox-spiralx").addEventListener("click", (e) => {
+      e.preventDefault();
+      new Fancybox(
+        [
+          {
+            src: "img/portfolio/spiralx-1.webp",
+            type: "image",
+          },
+        ],
+        {
+          // custom options
+        }
+      );
+    });
+    document.getElementById("fancybox-favin").addEventListener("click", (e) => {
+      e.preventDefault();
+      new Fancybox(
+        [
+          {
+            src: "img/portfolio/favin-1.webp",
+            type: "image",
+          },
+          {
+            src: "img/portfolio/favin-2.webp",
+            type: "image",
+          },
+        ],
+        {
+          // custom options
+        }
+      );
+    });
   </script>
 
 </body>
