@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminários & Eventos",
     menuinterests: "Interesses",
 
-    profile: "<b>Técnico em Informática e Desenvolvedor Web</b><br>Sou um entusiasta da tecnologia com mais de 10 anos de experiência na área de TI. <br>Minha trajetória inclui o desenvolvimento web, onde trabalhei com tecnologias como PHP, MySQL e Bootstrap, além do campo de hardware e sistemas.",
+    profile: "<b>Técnico em Informática e Desenvolvedor Web</b><br>Entusiasta da tecnologia com mais de 10 anos de experiência na área de TI. <br>Minha trajetória inclui o desenvolvimento web, onde trabalhei com tecnologias como PHP, MySQL e Bootstrap, além do campo de hardware e sistemas.",
 
     skillslangtools: "Linguagens de Programação & Ferramentas",
     skillsworkflow: "Fluxo de Trabalho",
@@ -36,7 +36,7 @@ var localization = {
     expwebdesignyears: "2014 em diante",
     expti: "Infraestrutura de TI",
     exptiplace: "Freelancer",
-    exptitext: "Prestei serviços de montagem e manutenção de computadores, instalação e atualização de sistemas operacionais e aplicativos, instalação e configuração de redes cabeadas e sem fio, e suporte técnico a diversos dispositivos tecnológicos. Trabalhei tanto para usuários finais quanto para empresas, adaptando-me às suas necessidades e requisitos específicos.",
+    exptitext: "Prestei serviços de montagem e manutenção de computadores, instalação e atualização de sistemas operacionais e aplicativos, instalação e configuração de redes cabeadas e sem fio, e suporte técnico a diversos dispositivos tecnológicos. Trabalhei tanto para usuários finais quanto para empresas.",
     exptiyears: "2011 em diante",
 
     portfoliosubtitle: "Alguns de meus projetos anteriores",
@@ -85,7 +85,7 @@ var localization = {
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Conferencista",
     
-    interestsp1: "Sempre apaixonado por tecnologia, busco enriquecer meu conhecimento por meio de aprendizado autodirigido em áreas diretamente ou indiretamente relacionadas à minha experiência profissional. Adquiri conhecimentos básicos em campos como Ciência de Dados e Aprendizado de Máquina, habilidades muito procuradas em minha área.",
+    interestsp1: "Sempre apaixonado por tecnologia, busco enriquecer meu conhecimento por meio de aprendizado autodirigido em áreas diretamente ou indiretamente relacionadas à minha experiência profissional, adquirindo conhecimentos em campos como Ciência de Dados e Machine Learning.",
     interestsp2: "Além disso, sou profundamente atraído pelo mundo do Empreendedorismo Tecnológico, desde a aplicação de metodologias de design e desenvolvimento de produtos, como o Design Thinking, até a gestão de equipes por meio de abordagens participativas e gerenciamento de projetos usando metodologias ágeis.",
     interestsp3: "Por outro lado, gosto de explorar outros horizontes tecnológicos, como o emocionante campo do design e desenvolvimento de jogos"
 

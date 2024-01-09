@@ -9,7 +9,7 @@ var localization = {
     menuevents: "Seminarios & Eventos",
     menuinterests: "Intereses",
 
-    profile: "<b>Técnico Informático y Desarrollador Web</b><br>Soy un profesional apasionado por la tecnología con más de 10 años de experiencia en el área de TI. <br>Mi trayectoria abarca el desarrollo web, donde he trabajado con tecnologías como PHP, MySQL y Bootstrap, así como en el ámbito de hardware y sistemas.",
+    profile: "<b>Técnico Informático y Desarrollador Web</b><br>Apasionado por la tecnología con más de 10 años de experiencia en el área de TI. <br>Mi trayectoria abarca el desarrollo web, donde he trabajado con tecnologías como PHP, MySQL y Bootstrap, así como en el ámbito de hardware y sistemas.",
 
     skillslangtools: "Lenguajes de Programación & Herramientas",
     skillsworkflow: "Flujo de Trabajo",
@@ -36,7 +36,7 @@ var localization = {
     expwebdesignyears: "2014 en adelante",
     expti: "Infraestructura TI",
     exptiplace: "Freelancer",
-    exptitext: "He brindado servicios de armado y mantenimiento de ordenadores, instalación y actualización de sistemas operativos y aplicaciones, instalación y configuración de redes cableadas e inalámbricas, y soporte técnico a diversos dispositivos tecnológicos. He trabajado tanto para usuarios finales como para empresas, adaptándome a sus necesidades y requerimientos específicos.",
+    exptitext: "He brindado servicios de armado y mantenimiento de ordenadores, instalación y actualización de sistemas operativos y aplicaciones, instalación y configuración de redes cableadas e inalámbricas, y soporte técnico a diversos dispositivos tecnológicos. He trabajado tanto para usuarios finales como para empresas.",
     exptiyears: "2011 en adelante",
 
     portfoliosubtitle: "Algunos de mis proyectos anteriores",
@@ -85,7 +85,7 @@ var localization = {
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Disertante",
 
-    interestsp1: "Siempre apasionado por la tecnología, busco enriquecer mi conocimiento de manera autodidacta en áreas directa o indirectamente relacionadas con mi experiencia profesional. He adquirido conocimientos básicos en áreas como la Ciencia de Datos y el Aprendizaje Automático, habilidades que son altamente demandadas en mi campo.",
+    interestsp1: "Siempre apasionado por la tecnología, busco enriquecer mi conocimiento de manera autodidacta en áreas directa o indirectamente relacionadas con mi experiencia profesional, adquiriendo conocimientos en áreas como Ciencia de Datos y Aprendizaje Automático.",
     interestsp2: "Además, me atrae profundamente el mundo del Emprendimiento Tecnológico, desde la aplicación de metodologías de diseño y desarrollo de productos como el Design Thinking, hasta la gestión de equipos a través de enfoques participativos, y la dirección de proyectos mediante metodologías ágiles.",
     interestsp3: "Por otro lado, disfruto explorando otros horizontes tecnológicos, como el emocionante campo del diseño y desarrollo de videojuegos."
 

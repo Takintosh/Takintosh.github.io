@@ -36,7 +36,7 @@ var localization = {
     expwebdesignyears: "2014 onwards",
     expti: "IT Infrastructure",
     exptiplace: "Freelancer",
-    exptitext: "I provided services of assembly and maintenance of computers, installation and update of operating systems and applications, installation and configuration of wired and wireless networks, and technical support to various technological devices. I worked for both end users and companies, adapting to their specific needs and requirements.",
+    exptitext: "I provided services of assembly and maintenance of computers, installation and update of operating systems and applications, installation and configuration of wired and wireless networks, and technical support to various technological devices. I worked for both end users and companies.",
     exptiyears: "2011 onwards",
     
     portfoliosubtitle: "Some of my previous projects",
@@ -85,7 +85,7 @@ var localization = {
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Speaker",
 
-    interestsp1: "Always passionate about technology, I seek to enrich my knowledge through self-directed learning in areas directly or indirectly related to my professional experience. I have acquired basic knowledge in fields such as Data Science and Machine Learning, skills that are highly sought after in my field.",
+    interestsp1: "Always passionate about technology, I seek to enrich my knowledge through self-directed learning in areas directly or indirectly related to my professional experience, acquiring knowledge in fields such as Data Science and Machine Learning.",
     interestsp2: "Additionally, I am deeply drawn to the world of Technology Entrepreneurship, from applying design and product development methodologies like Design Thinking, to managing teams through participatory approaches, and project management using agile methodologies.",
     interestsp3: "On the other hand, I enjoy exploring other technological horizons, such as the exciting field of game design and development."
 
