@@ -46,31 +46,18 @@ var localization = {
     portfoliospiralxtext: "SpiralX fue un proyecto descontinuado para una startup chilena que ofrecía un producto innovador. El proyecto consistía en una landing page con e-commerce para la venta de su producto, integrada con la plataforma de pago webpay. Para el desarrollo del proyecto, utilicé el framework de e-commerce OpenCart, y un template de bootstrap personalizado. El proyecto requirió trabajo de configuración basado en la logística de entrega de los productos, así como la adaptación del diseño a la identidad visual del cliente. Fue mi primer plataforma de e-commerce.",
     portfoliofavintype: "Showcase",
     portfoliofavintext: "FAVIN fue un proyecto descontinuado de un showcase que promovía a distintos artesanos de la región y sus trabajos. Me encargué del desarrollo del backend y la base de datos, utilizando CakePHP y MySQL, creando las funcionalidades necesarias para gestionar el contenido del showcase. Fue mi primer proyecto utilizando CakePHP.",
-    
+    portfoliotcctype: "Aplicación Web a medida",
+    portfoliotcctext: "En colaboración con la Intendencia Departamental de Rivera, desarrollé una aplicación web a medida para la digitalización de las inspecciones agrícolas en la producción de sandías; de los remitos de transporte de cargas; y el control del transporte por parte de las autoridades. <br> El mismo fue desarrollado en Laravel 11, utilizando MySQL como base de datos, y el paquete FilamentPHP. Si bien fue pensado inicialmente para ser aplicado a la producción de sandías, el mismo fue desarrollado con la posibilidad de escalar a otros productos agrícolas.",
+
     edu1tecnologo: "Tecnólogo en Análisis y Desarrollo de Sistemas",
-    edu1tecnologoyears: "2019 - En Curso",
     edu1tecnico: "Técnico en Informática para Internet",
-    edu1tecnicoyears: "2014 - 2016",
     edu1emt: "Educación Média Tecnológica en Informática",
-    edu1emtyears: "2009 - 2012",
-    edu1ifsul: "Instituto Federal Sul-rio-grandense Campus Sant'ana do Livramento",
-    edu1utu: "Escuela Técnica Superior de Rivera (CETP-UTU)",
 
     edu2bit: "Programa de Formación para el Empleo en TI",
-    edu2cuti: "Cámara Uruguaya de Tecnologías de la Información",
-    edu2bityears: "2018 - 2020",
     edu2ppi: "Programa de Pre Incubación de Emprendimientos Tecnológicos",
-    edu2itrn: "Instituto Tecnológico Regional Norte (UTEC)",
-    edu2ppiyears: "2019",
     edu2testing: "Curso de Testing de Software",
-    edu2jap: "Jóvenes a Programar (Ceibal)",
-    edu2testingyears: "2017",
     edu2pf: "Profundización de Idioma Francés",
-    edu2pfyears: "2012",
     edu2cbf: "Ciclo Básico de Idioma Francés",
-    edu2cbfyears: "2006 - 2010",
-    edu2cle: "Centro de Lenguas Extranjeras (CES)",
-
 
     eventINJU: "El Juego y la Virtualidad",
     eventINJURol: "INJU - Participante",
@@ -86,7 +73,7 @@ var localization = {
     eventDemodayRol: "UTEC - Disertante",
 
     interestsp1: "Siempre apasionado por la tecnología, busco enriquecer mi conocimiento de manera autodidacta en áreas directa o indirectamente relacionadas con mi experiencia profesional, adquiriendo conocimientos en áreas como Ciencia de Datos y Aprendizaje Automático.",
-    interestsp2: "Además, me atrae profundamente el mundo del Emprendimiento Tecnológico, desde la aplicación de metodologías de diseño y desarrollo de productos como el Design Thinking, hasta la gestión de equipos a través de enfoques participativos, y la dirección de proyectos mediante metodologías ágiles.",
+    interestsp2: "Además, me atrae el mundo del Emprendimiento Tecnológico, desde la aplicación de metodologías de diseño y desarrollo de productos como el Design Thinking, hasta la gestión de equipos a través de enfoques participativos, y la dirección de proyectos mediante metodologías ágiles.",
     interestsp3: "Por otro lado, disfruto explorando otros horizontes tecnológicos, como el emocionante campo del diseño y desarrollo de videojuegos."
 
 };

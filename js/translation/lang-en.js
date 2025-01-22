@@ -46,31 +46,18 @@ var localization = {
     portfoliospiralxtext: "SpiralX was a discontinued project for a Chilean startup that offered an innovative product. The project consisted of a landing page with e-commerce for the sale of its product, integrated with the webpay payment platform. For the development of the project, I used the OpenCart e-commerce framework, and a custom bootstrap template. The project required configuration work based on the logistics of product delivery, as well as the adaptation of the design to the client's visual identity. It was my first e-commerce platform.",
     portfoliofavintype: "Showcase",
     portfoliofavintext: "FAVIN was a discontinued project of a showcase that promoted different artisans from the region and their work. I was in charge of the development of the backend and the database, using CakePHP and MySQL, creating the necessary functionalities to manage the content of the showcase. It was my first project using CakePHP.",
+    portfoliotcctype: "Custom Web Application",
+    portfoliotcctext: "In collaboration with the Rivera Departmental Intendancy (Uruguay), I developed a custom web application to digitize agricultural inspections in watermelon production, transport waybills, and transportation control by authorities. <br> The application was developed using Laravel 11, MySQL as a database, and the FilamentPHP package. Although it was initially designed for watermelon production, it was developed with the possibility of scaling to other agricultural products.",
 
-    edu1tecnologo: "Technologist in Analysis and Systems Development",
-    edu1tecnologoyears: "2019 - Ongoing",
-    edu1tecnico: "Computer Technician for the Internet",
-    edu1tecnicoyears: "2014 - 2016",
-    edu1emt: "Technological Secondary Education in IT",
-    edu1emtyears: "2009 - 2012",
-    edu1ifsul: "Instituto Federal Sul-rio-grandense Campus Sant'ana do Livramento",
-    edu1utu: "Escuela Técnica Superior de Rivera (CETP-UTU)",
+    edu1tecnologo: "Technologist in Analysis and Systems Development (Advanced Diploma)",
+    edu1tecnico: "Computer Technician for the Internet (Associate Degree)",
+    edu1emt: "Technological Secondary Education in IT (High School)",
 
     edu2bit: "IT Employment Training Program",
-    edu2cuti: "Uruguayan Chamber of Information Technologies",
-    edu2bityears: "2018 - 2020",
     edu2ppi: "Pre-Incubation Program for Technological Ventures",
-    edu2itrn: "North Regional Technological Institute (UTEC)",
-    edu2ppiyears: "2019",
     edu2testing: "Software Testing Course",
-    edu2jap: "Youth to Program (Ceibal)",
-    edu2testingyears: "2017",
     edu2pf: "French Language Deepening",
-    edu2pfyears: "2012",
     edu2cbf: "Basic French Language Cycle",
-    edu2cbfyears: "2006 - 2010",
-    edu2cle: "Foreign Language Center (CES)",
-
 
     eventINJU: "The Game and the Virtuality",
     eventINJURol: "INJU - Participant",
@@ -79,14 +66,14 @@ var localization = {
     eventGames: "Let's Talk About Games",
     eventGamesRol: "UTEC - Collaborator",
     eventGamemakers: "Game Makers",
-    eventGamemakersRol: "UTEC - Assistant",
+    eventGamemakersRol: "UTEC - Workshop Assistant",
     eventGamelab: "Gamelab MVD",
     eventGamelabRol: "Gamelab/Antel - Participant",
     eventDemoday: "Demo Day 2019",
     eventDemodayRol: "UTEC - Speaker",
 
     interestsp1: "Always passionate about technology, I seek to enrich my knowledge through self-directed learning in areas directly or indirectly related to my professional experience, acquiring knowledge in fields such as Data Science and Machine Learning.",
-    interestsp2: "Additionally, I am deeply drawn to the world of Technology Entrepreneurship, from applying design and product development methodologies like Design Thinking, to managing teams through participatory approaches, and project management using agile methodologies.",
+    interestsp2: "Additionally, I am drawn to the world of Technology Entrepreneurship, from applying design and product development methodologies like Design Thinking, to managing teams through participatory approaches, and project management using agile methodologies.",
     interestsp3: "On the other hand, I enjoy exploring other technological horizons, such as the exciting field of game design and development."
 
 };
