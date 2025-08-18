@@ -59,19 +59,17 @@ var localization = {
     edu2pf: "Aprofundamento da Língua Francesa",
     edu2cbf: "Ciclo Básico de Língua Francesa",
     
-    eventINJU: "O Jogo e a Virtualidade",
-    eventINJURol: "INJU - Participante",
     eventEcosistema: "Ecossistemas de Inovação e Desenvolvimento de Empreendimentos Tecnológicos",
-    eventEcosistemaRol: "UTEC - Conferencista",
-    eventGames: "Let's Talk About Games",
-    eventGamesRol: "UTEC - Colaborador",
+    eventEcosistemaRole: "UTEC - Conferencista",
     eventGamemakers: "Game Makers",
-    eventGamemakersRol: "UTEC - Oficinista",
-    eventGamelab: "Gamelab MVD",
-    eventGamelabRol: "Gamelab/Antel - Participante",
+    eventGamemakersRole: "UTEC - Oficinista",
     eventDemoday: "Demo Day 2019",
-    eventDemodayRol: "UTEC - Conferencista",
-    
+    eventDemodayRole: "UTEC - Apresentação Oral",
+    eventCai: "54° Jornadas Argentinas de Informática e Pesquisa Operacional <br> 17° Congresso Argentino de AgroInformática",
+    eventCaiRole: "Sociedade Argentina de Informática - Apresentação Oral",
+    eventFebitec: "6° Feira Binacional de Tecnologia",
+    eventFebitecRole: "UTEC - Apresentação de pôster",
+
     interestsp1: "Sempre apaixonado por tecnologia, busco enriquecer meu conhecimento por meio de aprendizado autodirigido em áreas diretamente ou indiretamente relacionadas à minha experiência profissional, adquirindo conhecimentos em campos como Ciência de Dados e Machine Learning.",
     interestsp2: "Além disso, sou atraído pelo mundo do Empreendedorismo Tecnológico, desde a aplicação de metodologias de design e desenvolvimento de produtos, como o Design Thinking, até a gestão de equipes por meio de abordagens participativas e gerenciamento de projetos usando metodologias ágeis.",
     interestsp3: "Por outro lado, gosto de explorar outros horizontes tecnológicos, como o emocionante campo do design e desenvolvimento de jogos"
