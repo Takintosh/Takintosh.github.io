@@ -1,0 +1,110 @@
+{
+  "servicios": [
+    {
+      "id": "formateo_so",
+      "nombre": "Formateo e Instalación de SO",
+      "precio": 1000,
+      "cantidad": false,
+      "categoria": "software"
+    },
+    {
+      "id": "respaldo_datos",
+      "nombre": "Respaldo de Datos (por cada 100GB)",
+      "precio": 700,
+      "cantidad": true,
+      "unidad": "100GB",
+      "categoria": "backup"
+    },
+    {
+      "id": "respaldo_so_datos",
+      "nombre": "Respaldo de SO (imagen) y Datos en Disco Duro",
+      "precio": 1700,
+      "cantidad": false,
+      "categoria": "backup"
+    },
+    {
+      "id": "instalacion_software",
+      "nombre": "Instalación y/o Actualización de Software",
+      "precio": 500,
+      "cantidad": false,
+      "categoria": "software"
+    },
+    {
+      "id": "instalacion_impresora",
+      "nombre": "Instalación de Impresora o Periférico",
+      "precio": 800,
+      "cantidad": false,
+      "categoria": "hardware"
+    },
+    {
+      "id": "recuperacion_datos",
+      "nombre": "Recuperación de Datos por Software",
+      "precio": 2000,
+      "cantidad": false,
+      "categoria": "recuperacion"
+    },
+    {
+      "id": "mantenimiento_preventivo",
+      "nombre": "Mantenimiento Preventivo (Limpieza)",
+      "precio": 1000,
+      "cantidad": false,
+      "categoria": "mantenimiento"
+    },
+    {
+      "id": "asesoria",
+      "nombre": "Asesoría y Consultoría a Domicilio (por hora)",
+      "precio": 1000,
+      "cantidad": true,
+      "unidad": "hora",
+      "categoria": "consultoría"
+    },
+    {
+      "id": "diagnostico",
+      "nombre": "Diagnóstico (Reembolsable si se realiza reparación)",
+      "precio": 500,
+      "cantidad": false,
+      "categoria": "diagnostico",
+      "reembolsable": true
+    },
+    {
+      "id": "instalacion_red",
+      "nombre": "Instalación Física de Red, Cableado y Tarjetas de Red (por PC)",
+      "precio": 2000,
+      "cantidad": true,
+      "unidad": "PC",
+      "categoria": "red"
+    },
+    {
+      "id": "configuracion_red",
+      "nombre": "Configuración en Red de Cliente (por PC)",
+      "precio": 900,
+      "cantidad": true,
+      "unidad": "PC",
+      "categoria": "red"
+    },
+    {
+      "id": "configurar_impresora_red",
+      "nombre": "Configurar Impresora en Red",
+      "precio": 900,
+      "cantidad": false,
+      "categoria": "red"
+    }
+  ],
+  "costos_adicionales": [
+    {
+      "id": "recogida_entrega",
+      "nombre": "Recogida y Entrega a Domicilio",
+      "precio": 500
+    },
+    {
+      "id": "urgencia_taller",
+      "nombre": "Urgencia en Taller",
+      "precio": 800
+    },
+    {
+      "id": "urgencia_domicilio",
+      "nombre": "Urgencia a Domicilio",
+      "precio": 1500
+    }
+  ]
+}

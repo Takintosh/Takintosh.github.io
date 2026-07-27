@@ -47,6 +47,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/simulator.css" rel="stylesheet">
 
   <!-- Flag Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css"
@@ -104,6 +105,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger lang__menuinterests" href="#interests">Intereses</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="SimuladorCostos.abrirModal(); event.preventDefault();" title="Simulador de Costos">
+            Simulador de Servicio Técnico
+          </a>
         </li>
 
         <li class="nav-item">
@@ -718,6 +725,9 @@
     !function (e) { "use strict"; e('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () { if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) { var t = e(this.hash); if ((t = t.length ? t : e("[name=" + this.hash.slice(1) + "]")).length) return e("html, body").animate({ scrollTop: t.offset().top }, 1e3, "easeInOutExpo"), !1 } }), e(".js-scroll-trigger").click(function () { e(".navbar-collapse").collapse("hide") }), e("body").scrollspy({ target: "#sideNav" }) }(jQuery);
   </script>
 
+  <!-- Simulator Script -->
+  <script src="js/simulator.js"></script>
+
   <!-- Language Script -->
   <script src="js/language.js"></script>
   <script>
@@ -840,6 +850,65 @@
       );
     });
   </script>
+
+  <!-- Simulador Modal -->
+  <div class="modal fade" id="simuladorModal" tabindex="-1" role="dialog" aria-labelledby="simuladorModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="simuladorModalLabel">
+            <i class="fa fa-calculator"></i> Simulador de Costos
+          </h5>
+          <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" style="max-height: 70vh; overflow-y: auto;">
+          <div class="container-fluid">
+            <!-- Servicios -->
+            <div class="mb-4">
+              <h6 class="mb-3"><i class="fa fa-wrench"></i> Servicios</h6>
+              <div id="simulador-servicios-lista">
+                <!-- Se llena dinámicamente -->
+              </div>
+            </div>
+
+            <!-- Costos Adicionales -->
+            <div class="mb-4">
+              <div id="simulador-costos-adicionales">
+                <!-- Se llena dinámicamente -->
+              </div>
+            </div>
+
+            <!-- Desglose de Costos -->
+            <div class="mb-4">
+              <div id="simulador-desglose">
+                <!-- Se llena dinámicamente -->
+              </div>
+            </div>
+
+            <!-- Total -->
+            <div class="text-center mb-3">
+              <h4>
+                Total: <span class="text-primary" id="simulador-total">$0</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+            <i class="fa fa-times"></i> Cerrar
+          </button>
+          <button type="button" class="btn btn-warning" onclick="SimuladorCostos.limpiar()">
+            <i class="fa fa-refresh"></i> Limpiar
+          </button>
+          <button type="button" class="btn btn-primary" onclick="SimuladorCostos.exportarPresupuesto()">
+            <i class="fa fa-copy"></i> Copiar Presupuesto
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 
