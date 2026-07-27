@@ -77,15 +77,17 @@
   padding: 0.35em 0.65em;
 }
 
-/* Prevenir desplazamiento cuando se abre el modal 
-html {
-  overflow-y: scroll;
-}*/
-
-/* Prevenir desplazamiento en el body cuando se abre el modal */
-body.modal-open {
-  overflow-y: scroll;
-  padding-right: 0 !important;
+/* Keep sidebar fixed on mobile without .fixed-top.
+   Bootstrap adds padding-right to .fixed-top when modals open; the sidebar
+   already uses position:fixed via resume.css on desktop. */
+@media (max-width: 991px) {
+  #sideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+  }
 }
 
 /* Responsive */
