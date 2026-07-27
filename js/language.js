@@ -22,3 +22,18 @@ function LanguageJS(itemsToTranslate) {
         }
     }
 }
+
+var LanguageJS = new LanguageJS([
+      "menuabout", "menuskills", "menuexp", "menuedu1", "menuedu2", "menuawards", "menuevents", "menuinterests", "menuservice",
+      "profile",
+      "skillslangtools", "skillsworkflow", "skillswf1", "skillswf2", "skillswf3",
+      "skillsti", "skillsti1", "skillsti2", "skillsti3",
+      "skillslg", "skillslges", "skillslgpt", "skillslgen", "skillslgfr",
+      "expwebdev", "expwebdevplace", "expwebdevtext", "expwebdevyears", "expwebdesign", "expwebdesignplace", "expwebdesigntext","expwebdesignyears", "expti", "exptiplace", "exptitext", "exptiyears",
+      "portfoliosubtitle", "portfolioobimtype", "portfolioobimtext", "portfoliospiralxtype", "portfoliospiralxtext", "portfoliofavintype", "portfoliofavintext", "portfoliotcctype", "portfoliotcctext",
+      "edu1tecnologo", "edu1tecnico", "edu1emt", "edu1tecnologoyears", "edu1tecnologoyears", "edu1ifsul", "edu1utu",
+      "edu2bit", "edu2cuti", "edu2bityears", "edu2ppi", "edu2ppiyears", "edu2itrn", "edu2testing", "edu2testingyears", "edu2jap", "edu2pf", "edu2pfyears", "edu2cbf", "edu2cbfyears", "edu2cle",
+      "eventEcosistema", "eventEcosistemaRole", "eventGamemakers", "eventGamemakersRole", "eventDemoday", "eventDemodayRole", "eventCai", "eventCaiRole", "eventFebitec", "eventFebitecRole",
+      "interestsp1", "interestsp2", "interestsp3", "eventINJU", "eventINJURol",
+      "modalServiceTitle"
+    ]);

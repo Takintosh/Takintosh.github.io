@@ -1,0 +1,107 @@
+/* Estilos para el Simulador de Costos */
+
+.simulador-servicio {
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.simulador-servicio:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.simulador-servicio input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.simulador-servicio label {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.simulador-cantidad {
+  border: 1px solid #007bff;
+}
+
+.simulador-cantidad:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+#simulador-desglose {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#simulador-desglose ul {
+  padding-left: 0;
+}
+
+#simulador-desglose li {
+  padding: 8px 0;
+  font-size: 0.95rem;
+}
+
+#simulador-total {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Modal personalizado */
+#simuladorModal .modal-header {
+  /*border-bottom: 2px solid #0056b3;*/
+  background-color: #007bff;
+  color: white;
+}
+#simuladorModal .modal-title {
+  color: white;
+}
+
+#simuladorModal .modal-header .close {
+  text-shadow: none;
+  opacity: 0.7;
+}
+
+#simuladorModal .modal-header .close:hover {
+  opacity: 1;
+}
+
+/* Badges y elementos de info */
+.badge-info {
+  background-color: #17a2b8;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.35em 0.65em;
+}
+
+/* Keep sidebar fixed on mobile without .fixed-top.
+   Bootstrap adds padding-right to .fixed-top when modals open; the sidebar
+   already uses position:fixed via resume.css on desktop. */
+@media (max-width: 991px) {
+  #sideNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .simulador-cantidad {
+    width: 60px !important;
+  }
+
+  #simuladorModal .modal-dialog {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #simuladorModal .modal-body {
+    max-height: 80vh;
+  }
+}

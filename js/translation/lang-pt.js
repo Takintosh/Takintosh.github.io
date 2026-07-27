@@ -8,6 +8,7 @@ var localization = {
     menuawards: "Cursos & Certificações",
     menuevents: "Seminários & Eventos",
     menuinterests: "Interesses",
+    menuservice: "Simulador de Serviço Técnico",
 
     profile: "<b>Técnico em Informática e Desenvolvedor Web</b><br>Entusiasta da tecnologia com mais de 10 anos de experiência na área de TI. <br>Minha trajetória inclui o desenvolvimento web, onde trabalhei com tecnologias como PHP, MySQL e Bootstrap, além do campo de hardware e sistemas.",
 
@@ -72,6 +73,8 @@ var localization = {
 
     interestsp1: "Sempre apaixonado por tecnologia, busco enriquecer meu conhecimento por meio de aprendizado autodirigido em áreas diretamente ou indiretamente relacionadas à minha experiência profissional, adquirindo conhecimentos em campos como Ciência de Dados e Machine Learning.",
     interestsp2: "Além disso, sou atraído pelo mundo do Empreendedorismo Tecnológico, desde a aplicação de metodologias de design e desenvolvimento de produtos, como o Design Thinking, até a gestão de equipes por meio de abordagens participativas e gerenciamento de projetos usando metodologias ágeis.",
-    interestsp3: "Por outro lado, gosto de explorar outros horizontes tecnológicos, como o emocionante campo do design e desenvolvimento de jogos"
+    interestsp3: "Por outro lado, gosto de explorar outros horizontes tecnológicos, como o emocionante campo do design e desenvolvimento de jogos",
+
+    modalServiceTitle: "Simulador de Custos"
 
 };
