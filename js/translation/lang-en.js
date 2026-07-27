@@ -8,6 +8,7 @@ var localization = {
     menuawards: "Courses & Certifications",
     menuevents: "Seminars & Events",
     menuinterests: "Interests",
+    menuservice: "Technical Service Simulator",
 
     profile: "<b>IT Technician and Web Developer</b><br>I am a technology enthusiast with over 10 years of experience in the IT field. <br>My background includes web development, where I have worked with technologies such as PHP, MySQL, and Bootstrap, as well as in the realm of hardware and systems.",
 
@@ -23,7 +24,7 @@ var localization = {
     skillslg: "Languages",
     skillslges: "Spanish (Native)",
     skillslgpt: "Portuguese (Advanced)",
-    skillslgen: "English (Medium)",
+    skillslgen: "English (Intermediate)",
     skillslgfr: "French (Basic)",
 
     expwebdev: "Web Development",
@@ -73,6 +74,8 @@ var localization = {
 
     interestsp1: "Always passionate about technology, I seek to enrich my knowledge through self-directed learning in areas directly or indirectly related to my professional experience, acquiring knowledge in fields such as Data Science and Machine Learning.",
     interestsp2: "Additionally, I am drawn to the world of Technology Entrepreneurship, from applying design and product development methodologies like Design Thinking, to managing teams through participatory approaches, and project management using agile methodologies.",
-    interestsp3: "On the other hand, I enjoy exploring other technological horizons, such as the exciting field of game design and development."
+    interestsp3: "On the other hand, I enjoy exploring other technological horizons, such as the exciting field of game design and development.",
+
+    modalServiceTitle: "Cost Simulator"
 
 };
