@@ -70,11 +70,12 @@ var localization = {
     eventCaiRole: "Sociedade Argentina de Informática - Apresentação Oral",
     eventFebitec: "6° Feira Binacional de Tecnologia",
     eventFebitecRole: "UTEC - Apresentação de pôster",
+    eventFebitec2: "7° Feira Binacional de Tecnologia",
+    eventFebitecRole2: "UTEC/IFSul/UTU - Avaliador",
 
-    interestsp1: "Sempre apaixonado por tecnologia, busco enriquecer meu conhecimento por meio de aprendizado autodirigido em áreas diretamente ou indiretamente relacionadas à minha experiência profissional, adquirindo conhecimentos em campos como Ciência de Dados e Machine Learning.",
-    interestsp2: "Além disso, sou atraído pelo mundo do Empreendedorismo Tecnológico, desde a aplicação de metodologias de design e desenvolvimento de produtos, como o Design Thinking, até a gestão de equipes por meio de abordagens participativas e gerenciamento de projetos usando metodologias ágeis.",
-    interestsp3: "Por outro lado, gosto de explorar outros horizontes tecnológicos, como o emocionante campo do design e desenvolvimento de jogos",
-
+    interestsp1: "Sou autodidata e apaixonado por tecnologia: gosto de experimentar novas ferramentas, configurar dispositivos e manter meu próprio homelab. Também me atraem as áreas de design e desenvolvimento de videogames, onde costumo explorar ideias e protótipos por curiosidade criativa. Esses projetos pessoais refletem meu interesse constante em aprender e meu entusiasmo em transformar tecnologia em experiências práticas.",
+    interestsp2: "Ao mesmo tempo, pratico Taekwondo e Hapkido há mais de uma década, disciplinas nas quais hoje sou instrutor. Essa faceta complementa meu perfil profissional, transmitindo valores de perseverança, respeito e superação, e mostrando que meu compromisso com o aprendizado e o ensino se estende tanto ao âmbito técnico quanto ao humano.",
+    
     modalServiceTitle: "Simulador de Custos"
 
 };
