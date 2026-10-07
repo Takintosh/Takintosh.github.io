@@ -10,7 +10,7 @@ var localization = {
     menuinterests: "Interests",
     menuservice: "Technical Service Simulator",
 
-    profile: "<b>IT Technician and Web Developer</b><br>I am a technology enthusiast with over 10 years of experience in the IT field. <br>My background includes web development, where I have worked with technologies such as PHP, MySQL, and Bootstrap, as well as in the realm of hardware and systems.",
+    profile: "<b>IT Technician and Web Developer</b><br>I am a technology enthusiast with over 10 years of experience in the IT field. <br>My background includes web development, where I have worked with technologies such as PHP, MySQL, and Bootstrap, as well as in the field of hardware and systems.",
 
     skillslangtools: "Programming Languages & Tools",
     skillsworkflow: "Workflow",
@@ -29,37 +29,36 @@ var localization = {
 
     expwebdev: "Web Development",
     expwebdevplace: "Freelancer",
-    expwebdevtext: "I created websites and web applications, offering personalized, secure and efficient solutions. I mainly used PHP (including Laravel and CakePHP) and MySQL. I developed skills to program, debug and deploy web projects.",
+    expwebdevtext: "I created websites and web applications, delivering personalized, secure, and efficient solutions. I primarily worked with PHP (including Laravel and CakePHP) and MySQL, developing strong skills in programming, debugging, and deploying web projects.",
     expwebdevyears: "2016 onwards",
     expwebdesign: "Web Design",
     expwebdesignplace: "Freelancer",
-    expwebdesigntext: "I performed web design tasks, using HTML/CSS and generating the assets needed for the web, both static websites, as well as forums and blogs from web builder platforms. I developed skills to create attractive, responsive and accessible designs.",
+    expwebdesigntext: "I carried out web design tasks using HTML/CSS and produced the necessary assets for websites, including static pages as well as forums and blogs built with web builder platforms. I gained experience in creating attractive, responsive, and accessible designs.",
     expwebdesignyears: "2014 onwards",
     expti: "IT Infrastructure",
     exptiplace: "Freelancer",
-    exptitext: "I provided services of assembly and maintenance of computers, installation and update of operating systems and applications, installation and configuration of wired and wireless networks, and technical support to various technological devices. I worked for both end users and companies.",
+    exptitext: "I provided computer assembly and maintenance services, installed and updated operating systems and applications, and configured wired and wireless networks. I also offered technical support for a variety of technological devices, working with both individual users and companies.",
     exptiyears: "2011 onwards",
     
     portfoliosubtitle: "Some of my previous projects",
     portfolioobimtype: "Custom Web Application",
-    portfolioobimtext: "OBIM was a discontinued project of a custom platform for the architecture area. It offered users the possibility of downloading files, exploring a catalog of items and voting on other items. The project used Laravel and MySQL. The design was done using Bootstrap and following the client’s plan, maintaining fidelity to the original idea. For the backoffice, I used a pre-designed template. It was my first project in which I used Laravel.",
+    portfolioobimtext: "OBIM was a discontinued project: a custom platform for the architecture sector. It allowed users to download files, browse a catalog of items, and vote on them. The project was built with Laravel and MySQL, while the design was implemented using Bootstrap according to the client’s specifications. For the back office, I used a pre-designed template. It was my first project developed with Laravel.",
     portfoliospiralxtype: "Landing Page and e-commerce",
-    portfoliospiralxtext: "SpiralX was a discontinued project for a Chilean startup that offered an innovative product. The project consisted of a landing page with e-commerce for the sale of its product, integrated with the webpay payment platform. For the development of the project, I used the OpenCart e-commerce framework, and a custom bootstrap template. The project required configuration work based on the logistics of product delivery, as well as the adaptation of the design to the client's visual identity. It was my first e-commerce platform.",
+    portfoliospiralxtext: "SpiralX was a discontinued project for a Chilean startup offering an innovative product. It consisted of a landing page with integrated e-commerce, connected to the Webpay payment platform. I developed it using the OpenCart framework and a custom Bootstrap template. The project required configuration aligned with product delivery logistics and adaptation of the design to the client’s visual identity. It was my first e-commerce platform.",
     portfoliofavintype: "Showcase",
-    portfoliofavintext: "FAVIN was a discontinued project of a showcase that promoted different artisans from the region and their work. I was in charge of the development of the backend and the database, using CakePHP and MySQL, creating the necessary functionalities to manage the content of the showcase. It was my first project using CakePHP.",
+    portfoliofavintext: "FAVIN was a discontinued showcase project promoting regional artisans and their work. I was responsible for backend and database development, using CakePHP and MySQL to create the necessary functionalities for content management. It was my first project built with CakePHP.",
     portfoliotcctype: "Custom Web Application",
-    portfoliotcctext: "In collaboration with the Rivera Departmental Intendancy (Uruguay), I developed a custom web application to digitize agricultural inspections in watermelon production, transport waybills, and transportation control by authorities. <br> The application was developed using Laravel 11, MySQL as a database, and the FilamentPHP package. Although it was initially designed for watermelon production, it was developed with the possibility of scaling to other agricultural products.",
+    portfoliotcctext: "In collaboration with the Rivera Departmental Intendancy (Uruguay), I developed a custom web application to digitize agricultural inspections in watermelon production, manage transport waybills, and support transportation control by authorities. <br>The application was built with Laravel 11, MySQL, and the FilamentPHP package. Although initially designed for watermelon production, it was developed with scalability in mind to support other agricultural products.",
 
-    edu1tecnologo: "Technologist in Analysis and Systems Development (Advanced Diploma)",
-    edu1tecnico: "Computer Technician for the Internet (Associate Degree)",
-    edu1emt: "Technological Secondary Education in IT (High School)",
+    edu1tecnologo: "Undergraduate Technologist Degree in Analysis and Systems Development",
+    edu1tecnico: "Technical Certificate – Computer Technician for Internet Applications",
+    edu1emt: "Technical High School Diploma in Information Technology",
 
     edu2bit: "IT Employment Training Program",
     edu2ppi: "Pre-Incubation Program for Technological Ventures",
     edu2testing: "Software Testing Course",
     edu2pf: "French Language Deepening",
     edu2cbf: "Basic French Language Cycle",
-
     
     eventEcosistema: "Ecosystems of Innovation and Development of Technological Companies",
     eventEcosistemaRole: "UTEC ITR-N - Speaker",
@@ -71,11 +70,12 @@ var localization = {
     eventCaiRole: "Argentine Society of Informatics - Oral Presenter",
     eventFebitec: "6th Binational Technology Fair (FEBITEC)",
     eventFebitecRole: "UTEC/IFSul/UTU - Poster Presenter",
+    eventFebitec2: "7th Binational Technology Fair (FEBITEC)",
+    eventFebitecRole2: "UTEC/IFSul/UTU - Evaluator",
 
-    interestsp1: "Always passionate about technology, I seek to enrich my knowledge through self-directed learning in areas directly or indirectly related to my professional experience, acquiring knowledge in fields such as Data Science and Machine Learning.",
-    interestsp2: "Additionally, I am drawn to the world of Technology Entrepreneurship, from applying design and product development methodologies like Design Thinking, to managing teams through participatory approaches, and project management using agile methodologies.",
-    interestsp3: "On the other hand, I enjoy exploring other technological horizons, such as the exciting field of game design and development.",
-
+    interestsp1: "I am self-taught and passionate about technology: I enjoy experimenting with new tools, configuring devices, and maintaining my own homelab. I am also drawn to the field of video game design and development, where I often explore ideas and prototypes out of creative curiosity. These personal projects reflect my constant interest in learning and my enthusiasm for turning technology into practical experiences.",
+    interestsp2: "At the same time, I have practiced Taekwondo and Hapkido for more than a decade, disciplines in which I am now an instructor. This facet complements my professional profile, conveying values of perseverance, respect, and self-improvement, and showing that my commitment to learning and teaching extends both to the technical and the human realm.",
+    
     modalServiceTitle: "Cost Simulator"
 
 };
