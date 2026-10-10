@@ -51,8 +51,11 @@ var localization = {
     portfoliotcctext: "En colaboración con la Intendencia Departamental de Rivera, desarrollé una aplicación web a medida para la digitalización de las inspecciones agrícolas en la producción de sandías; de los remitos de transporte de cargas; y el control del transporte por parte de las autoridades. <br> El mismo fue desarrollado en Laravel 11, utilizando MySQL como base de datos, y el paquete FilamentPHP. Si bien fue pensado inicialmente para ser aplicado a la producción de sandías, el mismo fue desarrollado con la posibilidad de escalar a otros productos agrícolas.",
 
     edu1tecnologo: "Tecnólogo en Análisis y Desarrollo de Sistemas",
+    edu1tecnologodesc: "Carrera de pregrado universitario (tres años) con enfoque en ingeniería de software.",
     edu1tecnico: "Técnico en Informática para Internet",
+    edu1tecnicodesc: "Carrera terciaria con enfoque en desarrollo web.",
     edu1emt: "Educación Média Tecnológica en Informática",
+    edu1emtdesc: "Formación secundaria con orientación tecnológica en informática.",
 
     edu2bit: "Programa de Formación para el Empleo en TI",
     edu2ppi: "Programa de Pre Incubación de Emprendimientos Tecnológicos",
@@ -73,8 +76,8 @@ var localization = {
     eventFebitec2: "7° Feria Binacional de Tecnología",
     eventFebitecRole2: "UTEC/IFSul/UTU - Evaluador",
 
-    interestsp1: "Soy autodidacta y apasionado por la tecnología: disfruto experimentar con nuevas herramientas, configurar dispositivos y mantener mi propio homelab. Me atrae también el campo del diseño y desarrollo de videojuegos, donde suelo explorar ideas y prototipos por curiosidad creativa. Estos proyectos personales reflejan mi interés constante por aprender y mi entusiasmo por transformar la tecnología en experiencias prácticas.",
-    interestsp2: "Al mismo tiempo, practico Taekwondo y Hapkido desde hace más de una década, disciplinas en las que hoy soy instructor. Esta faceta complementa mi perfil profesional, transmitiendo valores de constancia, respeto y superación, y mostrando que mi compromiso con el aprendizaje y la enseñanza se extiende tanto al ámbito técnico como al humano.",
+    interestsp1: "Soy autodidacta y apasionado por la tecnología: disfruto experimentar con nuevas herramientas, configurar dispositivos y mantener mi propio homelab. También me atrae el diseño y desarrollo de videojuegos, donde suelo explorar ideas y prototipos por curiosidad creativa.",
+    interestsp2: "Practico Taekwondo y Hapkido desde hace más de una década, y hoy soy instructor de ambas disciplinas. Estas artes marciales forman parte de mi vida cotidiana y me han acompañado en un camino de aprendizaje y enseñanza.",
     
     modalServiceTitle: "Simulador de Costos"
 };
