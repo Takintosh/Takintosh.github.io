@@ -51,8 +51,11 @@ var localization = {
     portfoliotcctext: "In collaboration with the Rivera Departmental Intendancy (Uruguay), I developed a custom web application to digitize agricultural inspections in watermelon production, manage transport waybills, and support transportation control by authorities. <br>The application was built with Laravel 11, MySQL, and the FilamentPHP package. Although initially designed for watermelon production, it was developed with scalability in mind to support other agricultural products.",
 
     edu1tecnologo: "Undergraduate Technologist Degree in Analysis and Systems Development",
+    edu1tecnologodesc: "Three-year undergraduate program with a focus on software engineering.",
     edu1tecnico: "Technical Certificate – Computer Technician for Internet Applications",
+    edu1tecnicodesc: "Post-secondary program with a focus on web development.",
     edu1emt: "Technical High School Diploma in Information Technology",
+    edu1emtdesc: "Secondary education with a technological focus in IT.",
 
     edu2bit: "IT Employment Training Program",
     edu2ppi: "Pre-Incubation Program for Technological Ventures",
@@ -73,8 +76,8 @@ var localization = {
     eventFebitec2: "7th Binational Technology Fair (FEBITEC)",
     eventFebitecRole2: "UTEC/IFSul/UTU - Evaluator",
 
-    interestsp1: "I am self-taught and passionate about technology: I enjoy experimenting with new tools, configuring devices, and maintaining my own homelab. I am also drawn to the field of video game design and development, where I often explore ideas and prototypes out of creative curiosity. These personal projects reflect my constant interest in learning and my enthusiasm for turning technology into practical experiences.",
-    interestsp2: "At the same time, I have practiced Taekwondo and Hapkido for more than a decade, disciplines in which I am now an instructor. This facet complements my professional profile, conveying values of perseverance, respect, and self-improvement, and showing that my commitment to learning and teaching extends both to the technical and the human realm.",
+    interestsp1: "I am self-taught and passionate about technology: I enjoy experimenting with new tools, configuring devices, and maintaining my own homelab. I am also drawn to video game design and development, where I often explore ideas and prototypes out of creative curiosity.",
+    interestsp2: "I have practiced Taekwondo and Hapkido for more than a decade, and today I am an instructor in both disciplines. These martial arts are part of my daily life and have accompanied me on a path of learning and teaching.",
     
     modalServiceTitle: "Cost Simulator"
 

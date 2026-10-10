@@ -31,7 +31,7 @@ var LanguageJS = new LanguageJS([
       "skillslg", "skillslges", "skillslgpt", "skillslgen", "skillslgfr",
       "expwebdev", "expwebdevplace", "expwebdevtext", "expwebdevyears", "expwebdesign", "expwebdesignplace", "expwebdesigntext","expwebdesignyears", "expti", "exptiplace", "exptitext", "exptiyears",
       "portfoliosubtitle", "portfolioobimtype", "portfolioobimtext", "portfoliospiralxtype", "portfoliospiralxtext", "portfoliofavintype", "portfoliofavintext", "portfoliotcctype", "portfoliotcctext",
-      "edu1tecnologo", "edu1tecnico", "edu1emt", "edu1tecnologoyears", "edu1tecnologoyears", "edu1ifsul", "edu1utu",
+      "edu1tecnologo", "edu1tecnologodesc", "edu1tecnico", "edu1tecnicodesc", "edu1emt", "edu1emtdesc", "edu1ifsul", "edu1utu",
       "edu2bit", "edu2cuti", "edu2bityears", "edu2ppi", "edu2ppiyears", "edu2itrn", "edu2testing", "edu2testingyears", "edu2jap", "edu2pf", "edu2pfyears", "edu2cbf", "edu2cbfyears", "edu2cle",
       "eventEcosistema", "eventEcosistemaRole", "eventGamemakers", "eventGamemakersRole", "eventDemoday", "eventDemodayRole", "eventCai", "eventCaiRole", "eventFebitec", "eventFebitecRole", "eventFebitec2", "eventFebitecRole2",
       "interestsp1", "interestsp2", "eventINJU", "eventINJURol",
